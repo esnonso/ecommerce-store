@@ -1,0 +1,4 @@
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const LOAD_PRODUCTS = 'LOAD_PRODUCTS';
+export const LOAD_CART = 'LOAD_CART';
+export const REMOVE_PRODUCT = 'REMOVE_PRODUCT';

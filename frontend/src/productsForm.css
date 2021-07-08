@@ -1,0 +1,47 @@
+.modals input {
+    border:none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.modals textarea {
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.modals{
+     height: 350px;
+     width: 500px;
+    left: 0;
+    right: 0;
+    top: 10px;
+    bottom: 0;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    
+  }
+  .modals-content {
+    border-radius: 20px;
+  }
+  .modals-header, .modals-footer{
+    padding: 10px;
+  }
+  .modals-title {
+    margin:5px;
+  }
+  .modals-body {
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee ;
+  }
+  .modal-close-btn {
+    margin:5px;
+    float: right;
+  }

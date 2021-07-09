@@ -32,7 +32,6 @@ class ProductForm extends Component {
         e.preventDefault();
         postProducts(this.state)
         .then(() => {
-            alert(`${this.state.category} is added to catalog`)
             this.setState ({
                 category:'',
                 title:'',

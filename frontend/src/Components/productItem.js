@@ -1,4 +1,4 @@
-import { Col, Button} from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import Photo from '../Images/default-img.png';
 
 const ProductItem = ({name, title, amount, id}) => {

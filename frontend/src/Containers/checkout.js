@@ -33,7 +33,7 @@ class Checkout extends Component {
                     <p className="display-5">Pay Total Now</p>
                     <p>Amount: {totalAmount} </p>
                     <p className="display-5">Select a payment system</p>
-                    <a className="display-5 text-primary" href="#"><FontAwesomeIcon icon={faPaypal}/>Paypal</a>
+                    <a className="display-5 text-primary" href="/#"><FontAwesomeIcon icon={faPaypal}/>Paypal</a>
                     <p className="text-muted">No fee Applies</p>
                     <a className="display-5 text-primary" href="/">Cybernon Payment Portal</a>
                     <p className="text-muted">0.5% cashback on first two payments</p>

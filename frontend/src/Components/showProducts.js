@@ -49,7 +49,7 @@ import axios from 'axios';
                     </p>
                     <Button 
                         variant="primary"
-                        onClick={()=> this.addProductToCart({name:p.productName, amount:p.amount, quantity, id:p._id})}>
+                        onClick={()=> this.addProductToCart({name:p.title, amount:p.amount, quantity, id:p._id})}>
                         Add To Cart
                     </Button>
                 </div>
